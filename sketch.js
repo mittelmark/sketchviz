@@ -206,13 +206,14 @@ function main() {
     }
 
     run(args[0], args[1]);
-    console.log("Now watching '" + args[0] + "' !");
-    fs.watch(args[0], (event, filename) => {
-        if (filename) {
-            console.log("File changed! Computing...");
-            run(args[0], args[1]);
-        }
-    });
+    // DG: the watcher makes problems, diabled it 
+    // console.log("Now watching '" + args[0] + "' !");
+    //fs.watch(args[0], (event, filename) => {
+    //    if (filename) {
+    //        console.log("File changed! Computing...");
+    //        run(args[0], args[1]);
+    //    }
+    //});
 }
 
 main();
