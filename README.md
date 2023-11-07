@@ -7,7 +7,14 @@ This repo is a command line clone of https://sketchviz.com/
 - use the latest version of GraphViz (and not Viz.js). This fixes tons of issues
 - watch for file changes and update the svg automatically
 
+
 ## Installation
+
+This  repo  here  is  a  fork  of
+[https://github.com/gpotter2/sketchviz](https://github.com/gpotter2/sketchviz),
+comments out the automatic update which can cause trouble and adds installation information.
+
+
 
 ```bash
 cd ~/bin
